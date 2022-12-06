@@ -1,0 +1,32 @@
+.card-body{
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body h1{
+    font-weight: 600;
+    font-size: larger;
+}
+
+.card-body p{
+    font-weight: 400;
+    font-size:medium;
+}
+.card{
+    height: 20rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.card img{
+    height: 16rem;
+}
+
+.card img:hover{
+    filter: brightness(50%);
+}

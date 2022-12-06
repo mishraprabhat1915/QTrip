@@ -1,0 +1,55 @@
+.left-col{
+    border: 1px solid #9999;
+    padding:20px ;
+    margin-right:2rem ;
+}
+.list-resort{
+    padding: 10px;
+}
+.list-images{
+    height: 400px;
+}
+.Resort-images1 img{
+    height: 360px;
+    width: 100%;
+    border: 1px solid #9999;
+    padding: 5px;
+}
+
+.heading-section h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.heading-section h4{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.Resort-images2 img{
+    height: 180px;
+    width: 50%;
+    border: 1px solid #9999;
+    padding: 5px;
+}
+.Resort-images3 img{
+    height: 180px;
+    width: 50%;
+    border: 1px solid #9999;
+    padding: 5px;
+}
+
+.right-col{
+    height: 180px;
+}
+.first-row{
+padding: 10px;
+font-size: 2rem;
+font-weight: 600;
+}
+.second-row{
+padding:10px;
+}
+
+.second-row span{
+    color: orange;
+    padding: 10px;
+}
