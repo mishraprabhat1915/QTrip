@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/QTrip/static/css/main.cc58e24a.css",
+    "main.js": "/QTrip/static/js/main.ab5b6841.js",
+    "static/js/787.d24ced40.chunk.js": "/QTrip/static/js/787.d24ced40.chunk.js",
+    "index.html": "/QTrip/index.html",
+    "main.cc58e24a.css.map": "/QTrip/static/css/main.cc58e24a.css.map",
+    "main.ab5b6841.js.map": "/QTrip/static/js/main.ab5b6841.js.map",
+    "787.d24ced40.chunk.js.map": "/QTrip/static/js/787.d24ced40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc58e24a.css",
+    "static/js/main.ab5b6841.js"
+  ]
+}
