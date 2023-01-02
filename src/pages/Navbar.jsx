@@ -1,15 +1,18 @@
 import React from "react";
-
+import { motion } from "framer-motion";
 const Navbar = () => {
   return (
     <>
       {/* Navbar Part start here -->  */}
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav
+       class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">
+          <motion.a 
+          whileHover={{scale:1.2}}
+          class="navbar-brand" href="/">
             Navbar
-          </a>
+          </motion.a>
           <button
             class="navbar-toggler"
             type="button"
@@ -22,16 +25,21 @@ const Navbar = () => {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul
+            class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
+                <motion.a 
+                whileHover={{scale:1.2}}
+                class="nav-link active" aria-current="page" href="/">
                   Home
-                </a>
+                </motion.a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/ResortPage">
+                <motion.a
+                whileHover={{scale:1.2}}
+                 class="nav-link" href="/ResortPage">
                   Explore
-                </a>
+                </motion.a>
               </li>
             </ul>
           </div>

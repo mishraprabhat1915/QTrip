@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/ResortPage.css";
+import { motion } from "framer-motion";
 const ResortPage = () => {
   return (
     <>
@@ -8,20 +9,20 @@ const ResortPage = () => {
           <div className="col-lg-7 col-md-7 col-sm-12 left-col">
             <div className="row list-images">
               <div className="col-lg-6 col-md-6 col-sm-12 Resort-images1">
-                <img
+                <motion.img      whileHover={{scale:0.9}}
                   src="https://prabhat-mishra-qtrip.netlify.app/assets/adventures/resort/resort1.jpg"
                   alt="firstPic"
                 />
               </div>
               <div className="col-lg-6 col-md-6 d-none d-lg-block d-md-block d-flex flex-column ">
                 <div className="row Resort-images2">
-                  <img
+                  <motion.img      whileHover={{scale:0.9}}
                     src="https://prabhat-mishra-qtrip.netlify.app/assets/adventures/resort/resort2.jpg"
                     alt="secondPic"
                   />
                 </div>
                 <div className="row Resort-images3">
-                  <img
+                  <motion.img      whileHover={{scale:0.9}}
                     src="https://prabhat-mishra-qtrip.netlify.app/assets/adventures/resort/resort3.jpg"
                     alt="thirdPic"
                   />
@@ -86,7 +87,9 @@ const ResortPage = () => {
 
           {/* Second part of row */}
           <div className="col-lg-4 col-md-4 col-sm-12 border right-col sticky-top">
-            <div className="row first-row">Sold Out!</div>
+            <motion.div 
+            whileHover={{scale:1.2,background: "#FF0000"}}
+            className="row first-row">Sold Out!</motion.div>
             <hr></hr>
             <div className="row second-row">
               <p>
