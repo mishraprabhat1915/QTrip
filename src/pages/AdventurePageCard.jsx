@@ -1,12 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
+import {Link} from "react-router-dom";
 const AdventurePageCard = (props) => {
   return (
     <>
       <motion.div
       whileHover={{scale:0.9}}
        className="col-lg-3 col-md-3 col-sm-6 gy-4">
-        <a href="/ResortPage">
+        <Link to="/resortpage">
           <div class="card" key={props.id} style={{ width: "18rem" }}>
             <img src={props.image} class="" alt="{props.place}" />
             <div class="card-body">
@@ -14,7 +15,7 @@ const AdventurePageCard = (props) => {
               <motion.p   whileHover={{ x: 20, scale:1.2 }} class="card-text">Rs.{props.price}</motion.p>
             </div>
           </div>
-        </a>
+        </Link>
       </motion.div>
     </>
   );

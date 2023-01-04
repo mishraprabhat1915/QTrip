@@ -1,12 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
+import {Link} from "react-router-dom"
 const Cards = (props) => {
   return (
     <>
       <motion.div 
       whileHover={{scale:0.9}}
       className="col-lg-3  col-md-6 col-sm-6  gy-4 ">
-        <a href="./AdventurePage">
+        <Link to="/adventurepage">
           <div class="tiles" key={props.id}>
             <img
               className="tile-img-top" src={props.image} alt="bengaluru" />
@@ -19,7 +20,7 @@ const Cards = (props) => {
               class="tile-text">{props.places}+ Places</motion.p>
             </div>
           </div>
-        </a>
+        </Link>
       </motion.div>
     </>
   );

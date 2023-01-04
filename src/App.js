@@ -11,8 +11,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="AdventurePage" element={<AdventurePage />} />
-        <Route path="ResortPage" element={<ResortPage />} />
+        <Route path="/adventurepage" element={<AdventurePage />} />
+        <Route path="/resortpage" element={<ResortPage />} />
       </Routes>
       <Footer />
     </>

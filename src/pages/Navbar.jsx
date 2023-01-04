@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import {Link} from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -8,11 +9,11 @@ const Navbar = () => {
       <nav
        class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <motion.a 
+          <motion.Link 
           whileHover={{scale:1.2}}
-          class="navbar-brand" href="/">
+          class="navbar-brand" to="/">
             Navbar
-          </motion.a>
+          </motion.Link>
           <button
             class="navbar-toggler"
             type="button"
@@ -28,18 +29,18 @@ const Navbar = () => {
             <ul
             class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <motion.a 
+                <motion.Link 
                 whileHover={{scale:1.2}}
-                class="nav-link active" aria-current="page" href="/">
+                class="nav-link active" aria-current="page" to="/">
                   Home
-                </motion.a>
+                </motion.Link>
               </li>
               <li class="nav-item">
-                <motion.a
+                <motion.Link
                 whileHover={{scale:1.2}}
-                 class="nav-link" href="/ResortPage">
+                 class="nav-link" to="/resortpage">
                   Explore
-                </motion.a>
+                </motion.Link>
               </li>
             </ul>
           </div>
