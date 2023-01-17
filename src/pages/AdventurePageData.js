@@ -1,58 +1,66 @@
+import Buildings from "../assets/locations/buildings.jpg"
+import canopy from "../assets/locations/canopy.jpg"
+import city from "../assets/locations/city.jpg"
+import elephant from "../assets/locations/elephant.jpg"
+import huts from "../assets/locations/huts.jpg"
+import market from "../assets/locations/market.jpg"
+import mount from "../assets/locations/mount.jpg"
+import palace from "../assets/locations/palace.jpg"
 const AdventurePageData = [
   {
     id: 1,
     place: "Buildings",
     image:
-      "https://prabhat-mishra-qtrip.netlify.app/assets/adventures/beachside.jpg",
+      Buildings,
     price: 1200,
   },
   {
     id: 2,
     place: "Bakery",
     image:
-      "https://prabhat-mishra-qtrip.netlify.app/assets/adventures/canopy.jpg",
+    canopy,
     price: 1400,
   },
   {
     id: 3,
     place: "Sky Scrapers",
     image:
-      "https://prabhat-mishra-qtrip.netlify.app/assets/adventures/canopy.jpg",
+      city,
     price: 1600,
   },
   {
     id: 4,
     place: "Street Markets",
     image:
-      "https://prabhat-mishra-qtrip.netlify.app/assets/adventures/palace.jpg",
+    huts,
     price: 1900,
   },
   {
     id: 5,
     place: "NightLife",
     image:
-      "https://prabhat-mishra-qtrip.netlify.app/assets/adventures/market.jpg",
+    market,
     price: 2000,
   },
   {
     id: 6,
     place: "Movies",
     image:
-      "https://prabhat-mishra-qtrip.netlify.app/assets/adventures/mount.jpg",
+    mount,
     price: 1100,
   },
   {
     id: 7,
     place: "Hotels",
     image:
-      "https://prabhat-mishra-qtrip.netlify.app/assets/adventures/elephant.jpg",
+    elephant,
     price: 3000,
   },
   {
     id: 8,
     place: "Resorts",
     image:
-      "https://prabhat-mishra-qtrip.netlify.app/assets/adventures/palace.jpg",
+    palace,
     price: 11000,
   },
 ];

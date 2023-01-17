@@ -1,6 +1,9 @@
 import React from "react";
 import "../css/ResortPage.css";
 import { motion } from "framer-motion";
+import resortImage1 from "../assets/descriptions/resort1.jpg"
+import resortImage2 from "../assets/descriptions/resort2.jpg"
+import resortImage3 from "../assets/descriptions/resort3.jpg"
 const ResortPage = () => {
   return (
     <>
@@ -10,20 +13,20 @@ const ResortPage = () => {
             <div className="row list-images">
               <div className="col-lg-6 col-md-6 col-sm-12 Resort-images1">
                 <motion.img      whileHover={{scale:0.9}}
-                  src="https://prabhat-mishra-qtrip.netlify.app/assets/adventures/resort/resort1.jpg"
+                  src={resortImage1}
                   alt="firstPic"
                 />
               </div>
               <div className="col-lg-6 col-md-6 d-none d-lg-block d-md-block d-flex flex-column ">
                 <div className="row Resort-images2">
                   <motion.img      whileHover={{scale:0.9}}
-                    src="https://prabhat-mishra-qtrip.netlify.app/assets/adventures/resort/resort2.jpg"
+                    src={resortImage2}
                     alt="secondPic"
                   />
                 </div>
                 <div className="row Resort-images3">
                   <motion.img      whileHover={{scale:0.9}}
-                    src="https://prabhat-mishra-qtrip.netlify.app/assets/adventures/resort/resort3.jpg"
+                    src={resortImage3}
                     alt="thirdPic"
                   />
                 </div>

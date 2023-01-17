@@ -9,6 +9,7 @@ const LandingPage = () => {
       {/* Hero section start here --> */}
 
       <div className="hero-image">
+        
         <motion.h1
           initial={{ x: "-100vw" }}
           animate={{ x: 0 }}
