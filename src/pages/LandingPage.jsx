@@ -2,41 +2,26 @@ import React from "react";
 import "../css/LandingPage.css";
 import Cards from "./Cards.jsx";
 import data from "./LandingPagedata";
-import { motion } from "framer-motion";
 const LandingPage = () => {
   return (
     <>
       {/* Hero section start here --> */}
 
       <div className="hero-image">
-        
-        <motion.h1
-          initial={{ x: "-100vw" }}
-          animate={{ x: 0 }}
-          transition={{
-            delay: 0.5,
-            x: { duration: 1 },
-            default: { ease: "linear" }
-          }}
-        >Welcome to QTrip</motion.h1>
-        <motion.p
+        <h1>Welcome to QTrip</h1>
+        <p
           initial={{ x: "100vw" }}
           animate={{ x: 0 }}
           transition={{
             delay: 1,
             x: { duration: 2 },
-            default: { ease: "linear" }
+            default: { ease: "linear" },
           }}
-        >Explore the world with fantastic places to venture around</motion.p>
+        >
+          Explore the world with fantastic places to venture around
+        </p>
 
-        <motion.input
-        initial={{ x: "-100vw" }}
-        animate={{ x: 0 }}
-        transition={{
-          delay: 1,
-          x: { duration: 3 },
-          default: { ease: "linear" }
-        }}
+        <input
           class="search-bar"
           type="search"
           placeholder="Search City"
@@ -59,12 +44,6 @@ const LandingPage = () => {
           })}
         </div>
       </div>
-
-      {/* tile start here */}
-      {/* 
-            
-
- */}
     </>
   );
 };

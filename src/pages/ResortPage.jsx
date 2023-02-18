@@ -1,9 +1,8 @@
 import React from "react";
 import "../css/ResortPage.css";
-import { motion } from "framer-motion";
-import resortImage1 from "../assets/descriptions/resort1.jpg"
-import resortImage2 from "../assets/descriptions/resort2.jpg"
-import resortImage3 from "../assets/descriptions/resort3.jpg"
+import resortImage1 from "../assets/descriptions/resort1.jpg";
+import resortImage2 from "../assets/descriptions/resort2.jpg";
+import resortImage3 from "../assets/descriptions/resort3.jpg";
 const ResortPage = () => {
   return (
     <>
@@ -12,23 +11,14 @@ const ResortPage = () => {
           <div className="col-lg-7 col-md-7 col-sm-12 left-col">
             <div className="row list-images">
               <div className="col-lg-6 col-md-6 col-sm-12 Resort-images1">
-                <motion.img      whileHover={{scale:0.9}}
-                  src={resortImage1}
-                  alt="firstPic"
-                />
+                <img src={resortImage1} alt="firstPic" />
               </div>
               <div className="col-lg-6 col-md-6 d-none d-lg-block d-md-block d-flex flex-column ">
                 <div className="row Resort-images2">
-                  <motion.img      whileHover={{scale:0.9}}
-                    src={resortImage2}
-                    alt="secondPic"
-                  />
+                  <img src={resortImage2} alt="secondPic" />
                 </div>
                 <div className="row Resort-images3">
-                  <motion.img      whileHover={{scale:0.9}}
-                    src={resortImage3}
-                    alt="thirdPic"
-                  />
+                  <img src={resortImage3} alt="thirdPic" />
                 </div>
               </div>
             </div>
@@ -90,9 +80,7 @@ const ResortPage = () => {
 
           {/* Second part of row */}
           <div className="col-lg-4 col-md-4 col-sm-12 border right-col sticky-top">
-            <motion.div 
-            whileHover={{scale:1.2,background: "#FF0000"}}
-            className="row first-row">Sold Out!</motion.div>
+            <div className="row first-row">Sold Out!</div>
             <hr></hr>
             <div className="row second-row">
               <p>
