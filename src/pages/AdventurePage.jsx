@@ -6,7 +6,7 @@ const AdventurePage = () => {
   return (
     <>
       <div className="container">
-        <h1>Explore all adventures</h1>
+        <h1>Explore all Adventures</h1>
         <p>Here's a list of adventures that you can eplore in the city</p>
       </div>
       <div className="container">
